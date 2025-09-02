@@ -11,3 +11,7 @@ add_executable(teste2 main.c
         tab.c
         tab.h)
 
+add_executable(lista1ex1 lista1ex1.c
+        tab.c
+        tab.h
+)
