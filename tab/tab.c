@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../tab.h"
+#include "tab.h"
 #include <stdlib.h>
 
 void imprimir(void) {
