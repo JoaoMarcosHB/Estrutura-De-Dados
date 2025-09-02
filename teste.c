@@ -1,4 +1,4 @@
-#include "tab.h"
+#include "tab/tab.h"
 #include <stdio.h>
 int main(void) {
     int vet[] = {4, 9, 8, 2, 1, 10, 14, 15,16, 19, 30, 20, 25, 9};

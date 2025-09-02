@@ -1,4 +1,4 @@
-#include "tab.h"
+#include "../tab/tab.h"
 #include <stdio.h>
 
 TAB* TAB_copia(TAB*a) {
