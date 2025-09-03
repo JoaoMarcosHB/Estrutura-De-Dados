@@ -27,6 +27,10 @@ add_executable(lista1ex4 lista1/lista1ex4.c
         tab/tab.c
         tab/tab.h
 )
+add_executable(lista1ex5 lista1/lista1ex5.c
+        tab/tab.c
+        tab/tab.h
+)
 add_executable(lista1ex6 lista1/lista1ex6.c
         tab/tab.c
         tab/tab.h
