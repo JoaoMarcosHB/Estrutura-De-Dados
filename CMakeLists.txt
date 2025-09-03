@@ -43,3 +43,7 @@ add_executable(lista1ex8 lista1/lista1ex8.c
         tab/tab.c
         tab/tab.h
 )
+add_executable(lista1ex9 lista1/lista1ex9.c
+        tab/tab.c
+        tab/tab.h
+)
