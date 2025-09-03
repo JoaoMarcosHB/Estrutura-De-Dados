@@ -51,3 +51,7 @@ add_executable(lista2ex1 lista2/lista2ex1.c
         tabb/tabb.c
         tabb/tabb.h
 )
+add_executable(lista2ex2 lista2/lista2ex2.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
