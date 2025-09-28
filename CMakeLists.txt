@@ -55,3 +55,24 @@ add_executable(lista2ex4 lista2/lista2ex4.c
         tabb/tabb.c
         tabb/tabb.h
 )
+
+add_executable(lista5ex1 lista5/lista5ex1.c)
+
+add_executable(lista5ex2 lista5/lista5ex2.c)
+
+add_executable(lista4ex1 lista4/lista4ex1.c
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(lista4ex2 lista4/lista4ex2.c
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(lista4ex4 lista4/lista4ex4.c
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(lista4ex5 lista4/lista4ex5.c
+        tg/TG.c
+        tg/TG.h
+)
