@@ -76,3 +76,28 @@ add_executable(lista4ex5 lista4/lista4ex5.c
         tg/TG.c
         tg/TG.h
 )
+
+add_executable(lab1ex1 lab1/q1.c
+        tab/tab.c
+        tab/tab.h
+)
+add_executable(lab1ex2 lab1/q2.c
+        tab/tab.c
+        tab/tab.h
+)
+add_executable(lab1ex3 lab1/q3.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
+add_executable(lab1ex4 lab1/q4.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
+add_executable(lab1ex5 lab1/q5.c
+        tab/tab.c
+        tab/tab.h
+)
+add_executable(lab1ex6 lab1/q6.c
+        tab/tab.c
+        tab/tab.h
+)
