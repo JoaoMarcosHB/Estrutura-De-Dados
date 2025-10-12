@@ -1,5 +1,5 @@
 #include "TG.h"
-
+#include "../tlse/tlse.h"
 TG* TG_inicializa(){
   return NULL;
 }
@@ -135,3 +135,32 @@ TG* TG_retira_no(TG *g, int no){
   return g;
 }
 
+int conectado(TG*g) {
+  if (!g) return 0;
+  TLSE*visit = NULL, *nvisit = TLSE_insere(NULL, g->id_no);
+  while (nvisit) {
+    TG*no = TG_busca_no(g, nvisit->info);
+    if (!no) break;
+    visit = TLSE_insere(visit, no->id_no);
+    nvisit = TLSE_retira(nvisit, no->id_no);
+    TVIZ* v = no->prim_viz;
+    while (v) {
+      if ((!TLSE_busca(visit, v->id_viz) && (!TLSE_busca(nvisit, v->id_viz)))) {
+        nvisit = TLSE_insere(nvisit, v->id_viz);
+      }
+      v = v->prox_viz;
+    }
+  }
+  TLSE_libera(nvisit);//Acho que não precisaria pq só chega aqui qd for null;
+  int conect = 1;
+  TG*aux = g;
+  while (aux) {
+    if (!TLSE_busca(visit, aux->id_no)) {
+      conect = 0;
+      break;
+    }
+    aux = aux->prox_no;
+  }
+  TLSE_libera(visit);
+  return conect;
+}

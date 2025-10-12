@@ -101,3 +101,78 @@ add_executable(lab1ex6 lab1/q6.c
         tab/tab.c
         tab/tab.h
 )
+add_executable(lab1ex7 lab1/q7.c
+        tlse/tlse.c
+        tlse/tlse.h
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(lab1ex8 lab1/q8.c
+        tlse/tlse.c
+        tlse/tlse.h
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(lab2ex1 lab2/lab2ex1.c
+        tab/tab.c
+        tab/tab.h
+        tlseint/TLSEINT.c
+        tlseint/TLSEINT.h
+)
+add_executable(lab2ex2 lab2/lab2ex2.c
+        tabb/tabb.c
+        tabb/tabb.h
+        tlseint/TLSEINT.c
+        tlseint/TLSEINT.h
+)
+add_executable(lab2ex3 lab2/lab2ex3.c
+        tab/tab.c
+        tab/tab.h
+        tlseint/TLSEINT.c
+        tlseint/TLSEINT.h
+)
+
+add_executable(selecaonatural particionamentoarquivos/sel_nat.c)
+
+add_executable(testetavl TAVL/teste_AVL.c
+        TAVL/TAVL.c
+        TAVL/TAVL.h
+)
+add_executable(simuladexq4 simuladex/q4.c
+        tab/tab.c
+        tab/tab.h
+)
+add_executable(simuladexq5 simuladex/q5.c
+        tab/tab.c
+        tab/tab.h
+)
+add_executable(simuladexq6 simuladex/q6.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
+add_executable(simuladexq7 simuladex/q7.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
+add_executable(simuladexq8 simuladex/q8.c
+        tabb/tabb.c
+        tabb/tabb.h
+)
+add_executable(simuladexq9 simuladex/q9.c
+        tlse/tlse.c
+        tlse/tlse.h
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(simuladexq10 simuladex/q10.c
+        tlse/tlse.c
+        tlse/tlse.h
+        tg/TG.c
+        tg/TG.h
+)
+add_executable(simuladexq12 simuladex/q12.c
+        tlse/tlse.c
+        tlse/tlse.h
+        tg/TG.c
+        tg/TG.h
+)
